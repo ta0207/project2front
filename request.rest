@@ -1,0 +1,18 @@
+POST http://localhost:3000/authen
+Content-Type: application/json
+
+{
+
+    "name": "sample",
+    "password": "password"
+}
+
+###
+
+GET http://localhost:8084/viewRes
+
+
+###
+
+
+POST http://localhost:8084/postRes
